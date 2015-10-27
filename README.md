@@ -60,8 +60,8 @@ TO-DO
 #Runtime image
 ##Nginx
 This is a quick demo to running runtime container on cloud. In cloud server, go to the work folder run below command:
-'''sh
+```bash
 docker run --name nginx_runtime -v "$PWD":/usr/share/nginx/html:ro -p 8080:80 -d nginx
-'''
+```
 ###Test
 Open yourdomian.com:8080
