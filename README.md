@@ -20,7 +20,7 @@ docker build -t project-name-git-repo .
 ```
 
 ##Run the image
-If you build the image in your laptop, you need push the image to your cloud, and run the image in cloud
+If you build the image in your laptop, you need push the image to your cloud, and run the image in cloud.
 In your could server, run command
 ```bash
 docker run --name project-name-git -v your/host/workdir:/workspace -p YOUR_HOST_PORT:22 project-name-git-repo
